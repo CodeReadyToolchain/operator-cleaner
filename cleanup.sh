@@ -12,7 +12,11 @@ kinds=( cloudserviceaccountrequests.rhoas.redhat.com cloudservicesrequests.rhoas
 # Clean up
 for kconfig in "${clusters[@]}"
 do
+    echo "--------------------------------------"
+    echo ""
     echo "Cleaning up $kconfig cluster..."
+    echo ""
+    echo ""
 
     # Delete all CRs
 
